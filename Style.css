@@ -51,14 +51,22 @@ autoleft and right, also no padding to have them in the same margin*/
   color: #777777;
   line-height: 2rem;
 }
+/*portfolio borders on header*/
+.portfolio {
+  border-right: solid 2px #cccccc;
+  border-left: solid 2px #cccccc;
+}
+/*about me image to make it small*/
 #image {
   width: 20%;
   margin: 0 1rem 0 0;
 }
+/*labels on images had a default padding*/
 .card-img-overlay {
   margin: 50% auto;
   padding: 0%;
 }
+/*label on image on portfolio*/
 .card-title {
   background-color: #4aaaa5;
   color: #ffffff;
